@@ -5,3 +5,17 @@ public class App {
 
     }
 } // Appin loppu
+
+class Auto {
+
+    // atribuutit
+
+    public String merkki;
+    public String malli;
+    public int bensanMaara;
+
+    // metidit
+    public void jarrutta() {
+        System.out.println("Auto jarruttaa");
+    }
+}
