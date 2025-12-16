@@ -1,0 +1,19 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+class Ajovalot {
+   boolean on;
+
+   public Ajovalot(boolean alussaOn) {
+      this.on = alussaOn;
+      System.out.println("Ajovalot alustettu: " + this.on);
+   }
+
+   public void turnOn() {
+      this.on = true;
+      System.out.println("Ajovalot päälle");
+   }
+
+   public void turnOff() {
+      this.on = false;
+      System.out.println("Ajovalot pois");
+   }
+}

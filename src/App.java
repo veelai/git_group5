@@ -123,3 +123,36 @@ System.out.println("Mode changed to: " + mode);
 
 
 } //Autoradio luokan loppu
+
+
+
+
+
+
+
+
+
+//New class Ajovalot // kehittäjä TR
+class Ajovalot {
+
+    //attributes
+    boolean on;
+
+    //muodostin
+    public Ajovalot(boolean alussaOn) {
+        on = alussaOn;
+        System.out.println("Ajovalot alustettu: " + on);
+    }
+
+    //toiminnot // valot päälle
+    public void turnOn() {
+        on = true;
+        System.out.println("Ajovalot päälle");
+    }
+
+    //toiminnot // valot pois
+    public void turnOff() {
+        on = false;
+        System.out.println("Ajovalot pois");
+    }
+} //Ajovalot luokan loppu
